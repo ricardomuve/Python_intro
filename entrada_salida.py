@@ -47,3 +47,13 @@ prom=(nota1+nota2+nota3+nota4+nota5)/5
 print("Estudiante: \n",nomb)
 print("Promedio final: \n",prom)
 
+## aumentar +10 al imprimir un entero
+numero = int( input("Ingresa el número:") )
+print(numero+10)
+
+## Imprimir 5 veces una variable
+var=input("Ingresa una palabra: ")
+var*=5
+print(var)
+
+
