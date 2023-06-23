@@ -1,0 +1,39 @@
+# -*- coding: utf-8 -*-
+"""
+*** Actividad 2. Números enteros y reales ***
+Created on Thu Jun 22 21:10:43 2023
+@author: searchman
+"""
+
+## Ejercicio 1 ###############################################
+print("\tConversor de grados °C a °F.")
+valor=float(input("Ingresa los °C: "))
+conv=(valor-32)*5/9
+print(valor,"°C equivalen a:",conv,"°F.")
+
+## Ejercicio 2 ###############################################
+print("\n\tSuma, resta, división y multiplicación de 2 números.")
+num1=float( input("Ingresa el 1° número: ") )
+num2=float( input("Ingresa el 2° número: ") )
+print("La suma es: ", num1+num2)
+print("La resta es: ", num1-num2)
+print("La división es: ", num1/num2)
+print("La multiplicación es: ", num1*num2)
+
+## Ejercicio 3 ###############################################
+print("\n\tPerímetro y área de un rectángulo.")
+base=float( input("Ingresa la base del rectángulo: ") )
+altura=float( input("Ingresa la altura del rectángulo: ") )
+perim= (2*base)+(2*altura)
+area=base*altura
+print("El prerímetro es: ",perim,"[unidades lineales]." )
+print("El área es: ",area,"[unidades cuadradas]." )
+
+## Ejercicio 4 ###############################################
+print("\n\tMedia de tres números ingresados por teclado.")
+dato1=float( input("Ingresa el 1° número: ") )
+dato2=float( input("Ingresa el 2° número: ") )
+dato3=float( input("Ingresa el 3° número: ") )
+med=(dato1+dato2+dato3)/3
+print("La media es: ", med)
+
