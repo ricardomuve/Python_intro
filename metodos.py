@@ -87,6 +87,32 @@ print("lista_contar:",lista_contar)
 print("lista_contar.count(1)=",cont)
 
 
+## Método pop() elimina y devuelve el valor del elemento de la lista
+lista_uno = [True,False,1,2]
+print(lista_uno)
+print(lista_uno.pop(1))
+print(lista_uno)
+print(lista_uno.pop(1))
+print(lista_uno)
+print(lista_uno.pop(1))
+print(lista_uno)
+
+
+## Método remove() Quita el elemento cuyo valor sea el argumento 
+## (en su 1° aparición dentro de la lista)!!
+lista_zero = [1,2,3,4,5,"adiós"]
+print(lista_zero)
+lista_zero.remove(2)
+print(lista_zero)
+
+
+
+
+
+
+
+
+
 
 
 
