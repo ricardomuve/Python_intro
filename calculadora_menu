@@ -1,0 +1,47 @@
+# -*- coding: utf-8 -*-
+"""
+Calculadora
+Created on Tue Jul  4 12:51:47 2023
+@author: searchman
+"""
+
+print("\tCalculadora:")
+print("""
+      1. Suma
+      2. Resta
+      3. División
+      4. Submenú
+      5. Salir
+      """)
+
+sel = int(input("Selecciona una opción: "))
+
+while sel != 5:
+    
+    if sel == 1:
+        print("\tSuma de 2 números:")
+        a = float(input("Ingresa el primer valor: "))
+        b = float(input("Ingresa el segundo valor: "))
+        print("La suma es: ", a+b)
+        
+    elif sel ==2:
+        print("\tResta de 2 números:")
+        a = float(input("Ingresa el primer valor: "))
+        b = float(input("Ingresa el segundo valor: "))
+        print("La suma es: ", a-b)
+        
+    elif sel ==3:
+        print("\tDivisión de 2 números:")
+        a = float(input("Ingresa el primer valor: "))
+        b = float(input("Ingresa el segundo valor: "))
+        print("La división es: ", a/b)
+    
+    elif sel ==4:
+        print("> Submenú <")
+        print("""
+            10. Modal
+            11. Raíz
+            12. Regresar...
+            """)
+        
+    break
